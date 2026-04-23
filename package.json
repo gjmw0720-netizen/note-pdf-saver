@@ -1,0 +1,25 @@
+{
+  "name": "note-to-pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "noteの記事をPDFとして保存する学習用ツール",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "note"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.42.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
